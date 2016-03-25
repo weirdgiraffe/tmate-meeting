@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER gr4ph3 version: 0.1
+MAINTAINER weirdgiraffe version: 0.1
 # install tmate
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
 RUN DEBIAN_FRONTEND=noninteractive add-apt-repository ppa:tmate.io/archive
