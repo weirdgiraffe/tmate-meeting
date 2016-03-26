@@ -10,8 +10,7 @@ ADD bash.bashrc /etc/bash.bashrc
 ADD tmux.conf /etc/tmux.conf
 ADD show-session /usr/bin/show-session
 # install other things
-# maybe copy tmux.conf into docker
-# ADD tmux.conf /etc/tmux.conf
+# ...
 # go there, start tmate and give us a code
 RUN mkdir /meeting
 WORKDIR /meeting

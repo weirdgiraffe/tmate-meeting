@@ -10,7 +10,7 @@
 
 ## Run 
 
-    docker run -ti tmate-meeting
+    docker run -ti tmate-meeting -v <your meeting dir>:.meeting
 
 
 <!---
